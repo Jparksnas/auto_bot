@@ -1,0 +1,31 @@
+.env 
+*.env 
+ 
+# API 키 관련 
+config.json 
+ 
+# 로그 파일 
+log/ 
+*.log 
+*.db 
+*.csv 
+*.txt 
+ 
+# Python 
+__pycache__/ 
+*.pyc 
+*.pyo 
+venv/ 
+.venv/ 
+ 
+# IDE 
+.vscode/ 
+.idea/ 
+*.swp 
+ 
+# 임시 파일 
+paste*.txt 
+console_*.txt 
+critical_trades_*.txt 
+full_log_*.txt 
+trading_bot*.log 
